@@ -1,0 +1,10 @@
+.container {
+    width: var(--container);
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+

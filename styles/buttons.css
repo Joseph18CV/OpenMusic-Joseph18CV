@@ -1,0 +1,33 @@
+.title-button button {
+    background-color: var(--color-grey-8);
+    border: none;
+    width: 36px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.buttons-categories {
+    padding: 0 8px 0 8px;
+    background-color: var(--color-grey-8);
+    border: 1px solid var(--color-grey-8);
+    border-radius: var(--radius-1);
+
+    font-weight: 500;
+    font-size: var(--font-3);
+    color: var(--color-grey-2);
+    cursor: pointer;
+}
+
+.price-and-buy button{
+    background-color: var(--color-grey-7);
+    border: 1px solid var(--color-grey-7);
+    border-radius: var(--radius-1);
+    width: 75px;
+    height: 32px;
+    padding: 0 8px 0 8px;
+
+    font-weight: 500;
+    font-size: var(--font-3);
+    color: var(--color-grey-2);
+    cursor: pointer;
+}

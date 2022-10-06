@@ -51,3 +51,5 @@ const categories = [
   "Country",
   "Gospel",
 ];
+
+let filterActive = 0

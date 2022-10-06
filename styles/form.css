@@ -1,0 +1,19 @@
+.filter-price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.filter-price h2 {
+    font-weight: 600;
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+}
+
+.filter-price p {
+    font-weight: 500;
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+}
