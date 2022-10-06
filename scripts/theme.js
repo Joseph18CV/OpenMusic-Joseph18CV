@@ -11,9 +11,9 @@ dmButton.addEventListener("click", () => {
 
 function themeIcon (){
     if(dm){
-        dmIcon.src = "/assets/img/sun.svg"
+        dmIcon.src = "../assets/img/sun.svg"
     }else{
-        dmIcon.src = "/assets/img/moon.svg"
+        dmIcon.src = "../assets/img/moon.svg"
     }
 }
 
