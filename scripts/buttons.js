@@ -12,10 +12,11 @@ function listCategories () {
                 ul.innerHTML = ""
                 filterActive = index
                 products.forEach((element) => {
-                    if(index === element.category){
+                    if(index === element.category && inputRange.value >= element.price){
                         createCards(element)
+                        
                     }
-                    if(index === 0){
+                    if(index === 0 && inputRange.value >= element.price){
                         createCards(element)
                     }
                 })
