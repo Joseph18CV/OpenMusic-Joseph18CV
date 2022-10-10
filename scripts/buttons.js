@@ -19,6 +19,7 @@ function listCategories () {
                     if(index === 0 && inputRange.value >= element.price){
                         createCards(element)
                     }
+                    
                 })
             })
             genreButtons.appendChild(button)
